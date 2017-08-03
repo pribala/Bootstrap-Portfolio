@@ -6,10 +6,6 @@ body {
         line-height: 150%;
   	}
 
-/*.navbar-default {
-	background-color: #ffffff;
-}*/
-
 .navbar-brand {
 	background-color: #1967BE;
 	font-size: 30px;
@@ -23,13 +19,11 @@ body {
 .wrapper {
 	background-color: #F2F2F2;
 	background-image: url(../images/vertical-waves.png);
-	padding: 20px;
+	padding: 30px;
 	margin-bottom: 50px;
 }
 
 .profile-img {
-	/*width: 180px;
-	height: 180px;*/
 	margin-bottom: 15px;
 }
 
@@ -91,3 +85,11 @@ footer {
   background-color: #42AEED;
 }
 
+.folio-title {
+  margin-bottom: 20px;
+  color: #004B96;
+}
+
+.folio-title .folio-links {
+  text-decoration: none;
+}
