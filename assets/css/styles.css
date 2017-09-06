@@ -17,6 +17,7 @@ html, body {
 
 .navbar-default .navbar-brand {
     color: white;
+    white-space:nowrap
 }
 
 .wrapper {
