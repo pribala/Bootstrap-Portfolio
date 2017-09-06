@@ -54,7 +54,7 @@
   						</div>
   						<div class="row">
   							<div class="col-md-12 col-sm-12 col-xs-12">
-  								<form>
+  								<form id="contactForm">
   									<div class="form-group">
 									    <label for="name">Name</label>
 									    <input type="text" class="form-control" id="name" placeholder="John Smith">
@@ -98,5 +98,15 @@
 			@Copyright PRIYA BALAKRISHNAN
 		</div>	
 	</footer>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+    		$('.submit-button').click(function() {
+        		$('#contactForm').attr('action',
+                       'mailto:andu_pri@yahoo.com?subject=' +
+                       $('#name').val() + '&body=' + $('#message').val());
+        		$('#contactForm').submit();
+    		});
+		});
+	</script>
 </body>
 </html>	
